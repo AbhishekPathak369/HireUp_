@@ -63,31 +63,32 @@ HireUp is a full-stack job portal application designed to bridge the gap between
 ## 📸 Screenshots
 
 ### Homepage
-![Homepage](./screenshots/homepage.png)  
+<img width="1901" height="909" alt="image" src="https://github.com/user-attachments/assets/631937f4-a100-4836-92d8-30df9c0daa01" />
 *Beautiful landing page with featured jobs and categories*
 
 ### Job Listings
-![Jobs Page](./screenshots/jobs.png)  
+<img width="1796" height="892" alt="image" src="https://github.com/user-attachments/assets/d03f1e35-ef2c-468c-a6be-7cfc83c38d9b" />
 *Comprehensive job listings with search and filters*
 
 ### User Profile
-![Profile Page](./screenshots/profile.png)  
+<img width="1900" height="905" alt="image" src="https://github.com/user-attachments/assets/9a8b4298-df4e-4fb7-84dd-0bc96f4b55f4" />
 *User profile with skills, applications, and resume management*
 
 ### Company Portal
-![Company Portal](./screenshots/company-portal.png)  
+<img width="1793" height="910" alt="image" src="https://github.com/user-attachments/assets/5c8826c9-360e-4d10-84c7-961eab218504" />
 *Recruiter dashboard for company and job management*
 
 ### AI Chatbot
-![Chatbot](./screenshots/chatbot.png)  
-*AI-powered career assistant with voice support*
+<img width="583" height="830" alt="image" src="https://github.com/user-attachments/assets/2a6dc9cc-6436-41f3-9731-0e154d3bb1a0" />
+ *AI-powered career assistant with voice support*
 
 ### FAQ Section
-![FAQ Page](./screenshots/faq.png)  
+<img width="1791" height="915" alt="image" src="https://github.com/user-attachments/assets/5b3e07b4-dd0d-4030-b148-20314b8edcb5" />
 *Comprehensive help and support section*
 
 ### About Us
-![About Us](./screenshots/about-us.png)  
+<img width="1725" height="906" alt="image" src="https://github.com/user-attachments/assets/8ead9913-ee00-42ce-8105-65ffa4b2a1f6" />
+
 *Learn more about HireUp's mission and team*
 
 ## 🛠 Tech Stack
