@@ -1,7 +1,9 @@
 # HireUp - MERN Stack Job Portal 🚀
 
 <div align="center">
-
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=abhishekpathak369&label=Profile%20Views&color=0e75b6&style=flat" alt="profile views" />
+</p>
 **Connecting Talent with Opportunity**  
 *A modern job portal built with MERN stack featuring AI-powered career guidance*
 
