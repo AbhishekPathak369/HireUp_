@@ -188,27 +188,43 @@ Backend API: http://localhost:8000
 Authentication Endpoints
 Method	Endpoint	Description
 POST	/api/v1/user/register	User registration
+
 POST	/api/v1/user/login	User login
+
 POST	/api/v1/user/profile/update	Update user profile
+
 GET	/api/v1/user/logout	User logout
+
 Job Endpoints
 Method	Endpoint	Description
 GET	/api/v1/job/get	Get all jobs
+
 POST	/api/v1/job/post	Create new job
+
 GET	/api/v1/job/getadminjobs	Get admin jobs
+
 GET	/api/v1/job/get/:id	Get job by ID
+
 Application Endpoints
 Method	Endpoint	Description
 GET	/api/v1/application/apply/:id	Apply for job
+
 GET	/api/v1/application/get	Get user applications
+
 GET	/api/v1/application/:id/applicants	Get job applicants
+
 POST	/api/v1/application/status/:id/update	Update application status
+
 Company Endpoints
 Method	Endpoint	Description
 POST	/api/v1/company/register	Register company
+
 GET	/api/v1/company/get	Get user companies
+
 GET	/api/v1/company/get/:id	Get company by ID
+
 PUT	/api/v1/company/update/:id	Update company
+
 🌐 Deployment
 Production Deployment
 The application is deployed on Render with the following configuration:
