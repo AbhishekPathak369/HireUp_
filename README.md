@@ -252,9 +252,9 @@ Update documentation as needed
 Distributed under the MIT License. See LICENSE for more information.
 
 📞 Contact
-Your Name - @yourtwitter - email@example.com
+Your Name - Abhishek Pathak
 
-Project Link: https://github.com/yourusername/hireup
+Project Link: https://hireup-abhi.onrender.com/
 
 🙏 Acknowledgments
 React - Frontend framework
@@ -273,4 +273,4 @@ Cloudinary - File storage
 ⭐ Don't forget to star this repository if you find it helpful!
 Built with ❤️ using the MERN Stack
 
-</div> ```
+</div> 
