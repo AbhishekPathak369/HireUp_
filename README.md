@@ -82,6 +82,7 @@ HireUp is a full-stack job portal application designed to bridge the gap between
 
 ### AI Chatbot
 <img width="583" height="830" alt="image" src="https://github.com/user-attachments/assets/2a6dc9cc-6436-41f3-9731-0e154d3bb1a0" />
+
  *AI-powered career assistant with voice support*
 
 ### FAQ Section
