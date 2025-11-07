@@ -131,3 +131,146 @@ HireUp is a full-stack job portal application designed to bridge the gap between
    ```bash
    git clone https://github.com/yourusername/hireup.git
    cd hireup
+2.Backend Setup
+
+bash
+cd backend
+npm install
+
+# Create .env file
+cp .env.example .env
+# Add your environment variables
+Frontend Setup
+
+bash
+cd ../frontend
+npm install
+
+# Create .env file
+cp .env.example .env
+# Add your environment variables
+Environment Variables
+
+Backend (.env)
+
+env
+PORT=8000
+MONGO_URI=your_mongodb_atlas_uri
+SECRET_KEY=your_jwt_secret
+CLOUD_NAME=your_cloudinary_name
+API_KEY=your_cloudinary_api_key
+API_SECRET=your_cloudinary_api_secret
+Frontend (.env)
+
+env
+VITE_USER_API_END_POINT=http://localhost:8000/api/v1/user
+VITE_JOB_API_END_POINT=http://localhost:8000/api/v1/job
+VITE_APPLICATION_API_END_POINT=http://localhost:8000/api/v1/application
+VITE_COMPANY_API_END_POINT=http://localhost:8000/api/v1/company
+Run the application
+
+bash
+# Terminal 1 - Backend
+cd backend
+npm run dev
+
+# Terminal 2 - Frontend
+cd frontend
+npm run dev
+Access the application
+
+Frontend: http://localhost:5173
+
+Backend API: http://localhost:8000
+
+📚 API Documentation
+Authentication Endpoints
+Method	Endpoint	Description
+POST	/api/v1/user/register	User registration
+POST	/api/v1/user/login	User login
+POST	/api/v1/user/profile/update	Update user profile
+GET	/api/v1/user/logout	User logout
+Job Endpoints
+Method	Endpoint	Description
+GET	/api/v1/job/get	Get all jobs
+POST	/api/v1/job/post	Create new job
+GET	/api/v1/job/getadminjobs	Get admin jobs
+GET	/api/v1/job/get/:id	Get job by ID
+Application Endpoints
+Method	Endpoint	Description
+GET	/api/v1/application/apply/:id	Apply for job
+GET	/api/v1/application/get	Get user applications
+GET	/api/v1/application/:id/applicants	Get job applicants
+POST	/api/v1/application/status/:id/update	Update application status
+Company Endpoints
+Method	Endpoint	Description
+POST	/api/v1/company/register	Register company
+GET	/api/v1/company/get	Get user companies
+GET	/api/v1/company/get/:id	Get company by ID
+PUT	/api/v1/company/update/:id	Update company
+🌐 Deployment
+Production Deployment
+The application is deployed on Render with the following configuration:
+
+Frontend: Static site serving from Express
+
+Backend: Node.js service on Render
+
+Database: MongoDB Atlas
+
+File Storage: Cloudinary CDN
+
+Environment Setup for Production
+env
+# Production Environment Variables
+NODE_ENV=production
+CLIENT_URL=https://your-frontend-url.com
+🤝 Contributing
+We love your input! We want to make contributing to HireUp as easy and transparent as possible.
+
+Development Workflow
+Fork the Project
+
+Create your Feature Branch (git checkout -b feature/AmazingFeature)
+
+Commit your Changes (git commit -m 'Add some AmazingFeature')
+
+Push to the Branch (git push origin feature/AmazingFeature)
+
+Open a Pull Request
+
+Code Standards
+Follow React best practices
+
+Use meaningful commit messages
+
+Test all features before submitting
+
+Update documentation as needed
+
+📄 License
+Distributed under the MIT License. See LICENSE for more information.
+
+📞 Contact
+Your Name - @yourtwitter - email@example.com
+
+Project Link: https://github.com/yourusername/hireup
+
+🙏 Acknowledgments
+React - Frontend framework
+
+Node.js - Backend runtime
+
+MongoDB - Database
+
+Tailwind CSS - Styling
+
+Groq AI - AI capabilities
+
+Cloudinary - File storage
+
+<div align="center">
+⭐ Don't forget to star this repository if you find it helpful!
+Built with ❤️ using the MERN Stack
+
+</div> ```
